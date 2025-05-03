@@ -75,7 +75,7 @@ def generate_script(input_txt_path):
     full_prompt = build_prompt(summary)
 
     # Set up Gemini client
-    client = genai.Client(api_key="AIzaSyBZEnk-1geMPkDoIXResJ2oFhSYtAQauLY")
+    client = genai.Client(api_key="key")
     model = "gemini-2.5-flash-preview-04-17"
 
     contents = [
