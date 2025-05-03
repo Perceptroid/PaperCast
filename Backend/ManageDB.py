@@ -2,9 +2,9 @@ from supabase import create_client, Client
 import os
 
 # Supabase credentials
-SUPABASE_URL = "https://spitzpebcxgarkskdqgv.supabase.co"
-SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InNwaXR6cGViY3hnYXJrc2tkcWd2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDU1MzA4OTgsImV4cCI6MjA2MTEwNjg5OH0.qVGFmZ1NwN7pDSRyaZjUCPdxNNAjGKxeYmWAGlHlDZU"
-BUCKET_NAME = "papercastbucket"
+SUPABASE_URL = "url"
+SUPABASE_KEY = "key'
+BUCKET_NAME = "name"
 
 # Files to upload
 AUDIO_FILE_PATH = "output/audio.wav"
