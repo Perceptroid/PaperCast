@@ -3,7 +3,7 @@ import re
 from elevenlabs import generate, save, set_api_key
 
 
-set_api_key("sk_fd4efee02578e8c222ec51c2f97d96cc9b4170abbfe687ca") 
+set_api_key("key") 
 # Voice mapping (speaker -> ElevenLabs voice)
 voice_map = {
     "Alex": "Adam",    # Male
